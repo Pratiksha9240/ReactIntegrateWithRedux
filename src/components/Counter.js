@@ -17,11 +17,11 @@ const Counter = () => {
   };
 
   const incrementBy2Handler = () => {
-    dispatch({ type: "incrementBy2" });
+    dispatch({ type: "incrementBy2", amount: 2 });
   };
 
   const decrementBy2Handler = () => {
-    dispatch({ type: "decrementBy2" });
+    dispatch({ type: "decrementBy2", amount: 2 });
   };
 
   return (
